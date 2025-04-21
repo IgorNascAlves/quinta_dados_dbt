@@ -1,0 +1,38 @@
+# DBT build and target artifacts
+dbt_packages/
+target/
+dbt_modules/
+
+# Python virtualenv
+venv/
+.env/
+.venv/
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+*.log
+
+# Jupyter notebooks checkpoints (se usar)
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# Credentials (se tiver esse arquivo)
+profiles.yml
+secrets.yml
+.env
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Docker volumes (se tiver persistência local)
+mysql-data/
+
+# Test result files
+*.dbt.log

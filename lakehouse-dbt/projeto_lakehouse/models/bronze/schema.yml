@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: lakehouse
+    database: lakehouse_bronze        # ✅ porque a tabela raw_orders está no schema/banco bronze
+    schema: lakehouse_bronze
+    tables:
+      - name: raw_orders
