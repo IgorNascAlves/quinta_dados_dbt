@@ -117,6 +117,10 @@ dbt debug
 # Rodar os modelos
 dbt run
 
+# Visualizar docs gerados
+dbt docs generate
+dbt docs serve
+
 ```
 
 ---
